@@ -80,7 +80,7 @@ export default class App extends Component {
         <TouchableOpacity style={styles.button} onPress={this.selectPhoto.bind(this)}>
           <Text style={styles.text}>Select</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity style={styles.button} onPress={this.UploadPhoto}>
           <Text style={styles.text}>Upload</Text>
         </TouchableOpacity>
       </View>
